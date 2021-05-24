@@ -44,6 +44,11 @@ section {
   column-count: 3;
   column-gap: 40px;
 }
+
+.columns .patterns {
+  column-count: 5;
+}
+
 @media screen and (max-width: 1450px) {
   .columns {
     column-gap: 30px;
@@ -314,12 +319,11 @@ p,
   }
 }
 
-.slick-arrow {
+.slick-prev {
   position: absolute;
   bottom: 0;
   left: 10px;
-  background: url("/web/20180903023111im_/http://deska.work/img/svg/Deska_Website_01_do-tylu.svg")
-    no-repeat;
+  background: url(../Deska_files/svg/Deska_Website_01_do-tylu.svg) no-repeat;
   width: 70px;
   height: 20px;
   background-size: contain;
@@ -339,12 +343,29 @@ p,
 }
 
 .slick-next {
-  right: 0;
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  right: 0px;
+  /* top: 630px; */
+  background: url(../Deska_files/svg/Deska_Website_01_do-przodu.svg) no-repeat;
+  background-size: contain;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  z-index: 9;
+}
+
+/* .slick-prev {
+  top: 0;
+  width: 40px;
+  height: 20px;
   left: auto;
   right: 10px;
-  background: url("/web/20180903023111im_/http://deska.work/img/svg/Deska_Website_01_do-przodu.svg")
-    no-repeat;
-}
+  background: url(../Deska_files/svg/Deska_Website_01_do-przodu.svg) no-repeat;
+  outline: none;
+  border: none;
+} */
 
 .section__img {
   display: inline-block;
