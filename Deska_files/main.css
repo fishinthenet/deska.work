@@ -347,6 +347,7 @@ p,
   width: 70px;
   height: 20px;
   right: 0px;
+  bottom: 0;
   /* top: 630px; */
   background: url(../Deska_files/svg/Deska_Website_01_do-przodu.svg) no-repeat;
   background-size: contain;
